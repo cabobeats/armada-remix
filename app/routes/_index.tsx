@@ -143,10 +143,10 @@ export default function Home() {
         {/* About Section */}
         <section className="py-16 bg-white">
           <div className="container mx-auto px-6">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 font-serif">Sobre Nosotros</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 font-serif text-black">Sobre Nosotros</h2>
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-semibold mb-4">Entrenamientos para Todas las Edades</h3>
+                <h3 className="text-2xl font-semibold mb-4 text-black">Entrenamientos para Todas las Edades</h3>
                 <p className="text-gray-700 mb-6">
                   En Armada BJJ ofrecemos clases especializadas tanto para niños como para adultos. Nuestro programa está diseñado para desarrollar disciplina, confianza y habilidades de defensa personal mientras mejoras tu condición física.
                 </p>
@@ -154,26 +154,26 @@ export default function Home() {
                   Nos enorgullece ser parte del prestigioso linaje de Renzo Gracie, bajo la guía del Profesor Sean Alvarez. Esta afiliación nos permite ofrecer la más alta calidad de enseñanza en Jiu-Jitsu Brasileño, siguiendo metodologías probadas que han formado campeones mundiales.
                 </p>
                 <ul className="space-y-2">
-                  <li className="flex items-center">
-                    <svg className="h-5 w-5 text-green-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <li className="flex items-center text-black">
+                    <svg className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                     Clases para niños desde los 6 años
                   </li>
-                  <li className="flex items-center">
-                    <svg className="h-5 w-5 text-green-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <li className="flex items-center text-black">
+                    <svg className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                     Grupos de adultos principiantes y avanzados
                   </li>
-                  <li className="flex items-center">
-                    <svg className="h-5 w-5 text-green-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <li className="flex items-center text-black">
+                    <svg className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                     Instructores certificados y con experiencia
                   </li>
-                  <li className="flex items-center">
-                    <svg className="h-5 w-5 text-green-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <li className="flex items-center text-black">
+                    <svg className="h-5 w-5 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                     Afiliados oficialmente a la academia Renzo Gracie
@@ -403,10 +403,10 @@ export default function Home() {
         {/* Location Section with Google Maps */}
         <section id="ubicacion" className="py-16 bg-white">
           <div className="container mx-auto px-6">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 font-serif">Nuestra Ubicación</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 font-serif text-black">Nuestra Ubicación</h2>
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
-                <h3 className="text-2xl font-semibold mb-4">Visítanos</h3>
+                <h3 className="text-2xl font-semibold mb-4 text-black">Visítanos</h3>
                 <p className="text-gray-700 mb-6">
                   Estamos ubicados en el centro de Durango, con fácil acceso y estacionamiento cercano.
                 </p>
@@ -432,7 +432,7 @@ export default function Home() {
         {/* Horarios Section */}
         <section className="py-16 bg-gray-100">
           <div className="container mx-auto px-6">
-            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 font-serif">Horarios de Clases</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 font-serif text-black">Horarios de Clases</h2>
 
             {/* Logo */}
             <div className="flex justify-center mb-8">
