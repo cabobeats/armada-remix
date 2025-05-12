@@ -1,6 +1,6 @@
 export default function OpenMat() {
     return (
-        <section id="openmat" className="py-16 bg-blue-800">
+        <section id="openmat" className="py-16 bg-blue-900">
             <div className="container mx-auto px-6">
                 <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-white font-serif">Open Mat</h2>
                 <div className="grid md:grid-cols-2 gap-12 items-center">
