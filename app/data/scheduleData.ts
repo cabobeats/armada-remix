@@ -39,15 +39,15 @@ export const scheduleData: TimeSlot[] = [
         }
     },
     {
-        time: "03:00 PM - 04:00 PM",
+        time: "03:00 PM - 05:00 PM",
         classes: {
             0: null,
             1: null,
             2: null,
             3: null,
             4: null,
-            5: null,
-            6: { type: 'openmat', title: 'Open Mat', subtitle: 'Todos los niveles' }
+            5: { type: 'openmat', title: 'Open Mat', subtitle: 'Todos los niveles' },
+            6: null
         }
     },
     {
